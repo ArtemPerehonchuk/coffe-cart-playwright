@@ -42,3 +42,9 @@ To run all tests using the default browser configuration:
     ```bash
     npm run test
     ```
+
+## GitHub Pages
+
+View report on GitHub Pages:
+
+https://artemperehonchuk.github.io/coffee-cart-playwright/
