@@ -4,7 +4,7 @@ test.beforeEach(async({mainPage}) => {
     await mainPage.navigate('/');
 })
 
-test('Verify adding items to the cart', async ({page, mainPage}) => {
+test('Verify adding items to the cart', async ({mainPage}) => {
     await mainPage.mochaItem.click();
     await mainPage.totalPrice.hover();
 
